@@ -8,7 +8,10 @@ public class BattleShip //change name of program
 {
    public static void main(String args[])
    {
-   
+     
+   }
+   public static void danTheDino(String thisTask){
+     String task=thisTask;
               
       System.out.println("                                          _________________________                            ");
       System.out.println("                                         |_________________________|             _____________________               ");
@@ -16,7 +19,7 @@ public class BattleShip //change name of program
       System.out.println("                                     |_________________________________|        |   I'm Dan the Dino  |                  ");
       System.out.println("                                     |______|   |______________________|        |        AND...       |             " );
       System.out.println("                                     |______|___|______________________|        |    We're going to   |                ");
-      System.out.println("                                     |_________________________________|        |                     |                  ");
+      System.out.println("                                     |_________________________________|        | "+task+"            |                  ");
       System.out.println("                                     |_________________________________|        |                     |                      ");
       System.out.println("                                     |_________________________________|       /______________________|                              ");
       System.out.println("                                     |_________________________________|                                       ");
@@ -55,6 +58,6 @@ public class BattleShip //change name of program
       System.out.println("");
       System.out.println("");
 
-      System.out.println("Hello World");
+
    }
 }
