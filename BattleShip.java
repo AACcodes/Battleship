@@ -10,7 +10,12 @@ public class BattleShip //change name of program
    {
    
       DanTheDino.draw();
+    //  BattleshipBoard test = new BattleshipBoard();
+    //^^^ that is how to declare a battleship board
 
    }
+   
+   
 }
+
  
