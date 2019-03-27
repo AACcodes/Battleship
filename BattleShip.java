@@ -8,9 +8,15 @@ public class BattleShip //change name of program
 {
    public static void main(String args[])
    {
+
+      int[][] board = new int[10][10];
    
-      DanTheDino.draw();
+       DanTheDino.draw();
+       Board.showBoard(board);
 
    }
+
+    
+
 }
  
