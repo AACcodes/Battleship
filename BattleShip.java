@@ -11,12 +11,13 @@ public class BattleShip //change name of program
 
       int[][] board = new int[10][10];
    
+
        DanTheDino.draw();
        Board.showBoard(board);
 
    }
-
-    
+   
 
 }
+
  
