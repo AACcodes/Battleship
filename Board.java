@@ -8,7 +8,7 @@ class Board
         
         for(int row=0 ; row < 10 ; row++ )
         {
-            System.out.print((row+1)+"");
+            System.out.print((row+1)+ "");
             
             for(int column=0 ; column < 10 ; column++)
             {
