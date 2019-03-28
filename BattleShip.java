@@ -9,11 +9,12 @@ public class BattleShip //change name of program
    public static void main(String args[])
    {
 
-      int[][] board = new int[10][10];
-   
+      //int[][] board = new int[10][10];
+      
+      BattleshipBoard test = new BattleshipBoard();
 
        DanTheDino.draw();
-       Board.showBoard(board);
+       //Board.showBoard(board);
 
    }
    
