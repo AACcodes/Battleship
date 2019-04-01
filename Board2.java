@@ -8,16 +8,7 @@ public static void start()
    Scanner sc = new Scanner(System.in);  
    boolean [][] grid = new boolean [10][10];
    int guessRow, guessColumn, row = 0, column, ships = 0, turns = 0;
-   
-   
-//    for (row = 0, ships = 0; row < 10 && ships < 5; row++, ships++) 
-//       {
-// 			column = 0;
-//          grid[row][column] = true;
-// 
-//   		}
-   
-   
+
    
    do{
        ships ++;                             //position of one ship for he first out of ten games
