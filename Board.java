@@ -17,7 +17,7 @@ class Board
                     System.out.print("\t"+"~");
                   }
                 
-                else if(board[row][column]==0)
+                 if(board[row][column]==0)
                   {
                     System.out.print("\t"+"*");
                   }

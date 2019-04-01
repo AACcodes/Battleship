@@ -4,19 +4,14 @@
 // 3/26/19
 
 
-public class BattleShip //change name of program 
+public class BattleShip 
 {
    public static void main(String args[])
    {
-
-      int[][] board = new int[10][10];
-   
-
        DanTheDino.draw();
-       Board.showBoard(board);
+       Board2.start();
 
-   }
-   
+   }   
 
 }
 
