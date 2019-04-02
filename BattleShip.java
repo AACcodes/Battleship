@@ -10,10 +10,9 @@ public class BattleShip
    {
        DanTheDino.draw();
        Board2.start();
-      
-      BattleshipBoard test = new BattleshipBoard();
    }   
 
 }
 
+ 
  
