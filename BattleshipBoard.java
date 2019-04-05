@@ -73,6 +73,20 @@ public class BattleshipBoard{
        
        
        }while(endGame()==false);
+       
+       System.out.println("WooHoo! you win!");
+       System.out.println("If you would like to play again, type YES, if not, type NO");
+       
+       Scanner input = new Scanner(System.in);
+      System.out.print("Enter Your answer -->  ");
+      String answer = input.nextLine();
+      if(answer.equals("YES")){
+      startGame();
+      }else{
+      System.out.println("Thank you for playing!");
+      }
+
+       
 
    }
    public static int inputX(){
