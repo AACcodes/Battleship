@@ -69,10 +69,8 @@ System.out.println("You will accomplish this choosing coordinates on the coordin
 
 System.out.println("The computer will tell you if you hit any ships. \n");
 
-System.out.println("\n");
-
 System.out.println("The game will not end until you hit all the ships");
-System.out.println("Make sureyou keep track of all the ships that you sink!");
+System.out.println("Make sure you keep track of all the ships that you sink AND the coordinates where you hit the computer's ships");
 
 System.out.println("Good luck and have fun Battleshipping!");
 System.out.println();
