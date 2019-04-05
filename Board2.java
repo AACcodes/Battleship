@@ -11,7 +11,7 @@ public static void start()
 
    
    do{
-       ship1 ++;                             //position of one ship for he first out of ten games
+       ship1 ++;                             //position of one ship for the first out of ten games
       
        column = 0; 
        grid[row][column] = true;
@@ -26,7 +26,7 @@ public static void start()
      column = row ;
 
      do{
-       ship2++;                             //position of ship 2 for he first out of ten games
+       ship2++;                             //position of ship 2 for the first out of ten games
        grid[row][column] = true;
        column++;
        
@@ -39,7 +39,7 @@ public static void start()
      row = column ;
 
      do{
-       ship4++;                             //position of ship 3 for he first out of ten games
+       ship4++;                             //position of ship 3 for the first out of ten games
        grid[row][column] = true;
        row++;
        
@@ -54,7 +54,7 @@ public static void start()
        
 		 for(int j=0; j < grid[i].length;j++)
 		 {
-         //System.out.print(" "+ grid[i][j] +" ");      //so you can see where the ships are --> comment out when program is done
+        //System.out.print(" "+ grid[i][j] +" ");      //so you can see where the ships are --> comment out when program is done
          System.out.print(" "+ "*" +" ");          // uncomment when program is done
 		 }
 		 System.out.println();
