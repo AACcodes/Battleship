@@ -43,7 +43,7 @@ public class BattleshipBoard{
    case 10:initBoard10(); break; 
    default: break;
    }
-
+   
    
   //initBoard1();//which computer board to choose
     
@@ -51,24 +51,7 @@ public class BattleshipBoard{
 
 
 }
-   public void setUp(){
-   
-   //function to set up board for player
-   
-   //carrier 5 spaces
-   
-   
-   //Battleship 4 spaces
-   
-   //Cruiser 3 spaces
-   
-   //submarine also 3 spaces
-   
-   
-   //destroyer 2 spaces
-   
-     }
-   public void startGame(){
+      public void startGame(){
    
     do{  
          showCompBoard();
