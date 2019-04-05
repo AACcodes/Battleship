@@ -27,7 +27,7 @@ public class BattleshipBoard{
    
    boardP1 = new int[10][10]; //makes new board FOR PLAYER with all false
    boardComp = new int[10][10];
-   showPlayerBoard();
+  // showPlayerBoard();
    
    int randNum = (int)(Math.random()*10-1)+1;
    switch (randNum){
@@ -47,7 +47,7 @@ public class BattleshipBoard{
    
   //initBoard1();//which computer board to choose
     
-   showCompBoard();//COMMENT THIS ONE OUT
+   //showCompBoard();//COMMENT THIS ONE OUT
 
 
 }
@@ -69,7 +69,9 @@ public class BattleshipBoard{
    
      }
    public void startGame(){
-    do{
+   
+    do{  
+         showCompBoard();
          int x = inputX();
          int y = inputY();
              do{
@@ -81,8 +83,10 @@ public class BattleshipBoard{
             
             
              }while(validate(x,y)==false);
+             
+       
        move(x,y);
-       computerMove();
+       //computerMove();
        
        
        }while(endGame()==false);
@@ -104,7 +108,9 @@ public class BattleshipBoard{
    }
    public boolean validate(int x, int y){
    
-   if( ((boardComp[x-1][y-1])==2)||((boardComp[x-1][y-1])==3)){
+   if(x==0||y==0){
+   return(false);
+   }else if( ((boardComp[x-1][y-1])==2)||((boardComp[x-1][y-1])==3)){
    return(false);
    }else{
    return(true);
@@ -244,14 +250,16 @@ public class BattleshipBoard{
                
                if(temp==1){
                
-               System.out.print("o ");
+               System.out.print("* ");
                
                }else if(temp==0){
                 System.out.print("* ");
           
                }else if(temp==2){
+               System.out.print("! ");
                
                }else if(temp==3){
+               System.out.print("o ");
                
                }
                
