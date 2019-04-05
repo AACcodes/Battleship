@@ -29,12 +29,29 @@ public class BattleshipBoard{
    boardComp = new int[10][10];
    showPlayerBoard();
    
-   initBoard1();
+   initBoard1();//which computer board to choose
     
    showCompBoard();//COMMENT THIS ONE OUT
 
 
 }
+   public void setUp(){
+   
+   //function to set up board for player
+   
+   //carrier 5 spaces
+   
+   
+   //Battleship 4 spaces
+   
+   //Cruiser 3 spaces
+   
+   //submarine also 3 spaces
+   
+   
+   //destroyer 2 spaces
+   
+     }
    public void startGame(){
     do{
          int x = inputX();
