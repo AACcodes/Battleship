@@ -28,19 +28,37 @@ public class BattleshipBoard{
    boardP1 = new int[10][10]; //makes new board FOR PLAYER with all false
    boardComp = new int[10][10];
    showPlayerBoard();
+   int randNum = (int)(Math.random()*10-1)+1;
+   switch (randNum){
+   case 1: initBoard1(); break;
+   case 2:initBoard2(); break;
+   case 3:initBoard3(); break;
+   case 4:initBoard4(); break;
+   case 5:initBoard5(); break;
+   case 6:initBoard6(); break;
+   case 7:initBoard7(); break;
+   case 8:initBoard8(); break;
+   case 9:initBoard9(); break;
+   case 10:initBoard10(); break; 
+   default: break;
+   }
    
-   initBoard1();//which computer board to choose
+   //initBoard1();//which computer board to choose
     
-   showCompBoard();//COMMENT THIS ONE OUT
+    
+  // showCompBoard();//COMMENT THIS ONE OUT
 
 
 }
    public void setUp(){
    
    //function to set up board for player
-   
+   System.out.println("You get to set up YOUR board!");
    //carrier 5 spaces
-   
+   System.out.println("Choose where you'd like to place your carrier! (5 spaces)");
+    Scanner input = new Scanner(System.in);
+      System.out.print("ENTER Y -->  ");
+      input.nextInt();
    
    //Battleship 4 spaces
    
