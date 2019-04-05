@@ -221,11 +221,12 @@ public class BattleshipBoard{
    public void showCompBoard(){
    
    System.out.println();
-        System.out.println("   1 2 3 4 5 6 7 8 9 10");
+        System.out.println("  Y 1 2 3 4 5 6 7 8 9 10");
+        System.out.println(" X");
             int rowCount=0;
             for(int[]row:boardComp){
             
-           System.out.print(twoDigits.format(rowCount+1));
+           System.out.print(twoDigits.format(rowCount+1)+" ");
             int colCount=0; 
                for(int temp:row){
                           colCount++;
