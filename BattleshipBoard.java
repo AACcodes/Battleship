@@ -43,7 +43,7 @@ public class BattleshipBoard{
    case 10:initBoard10(); break; 
    default: break;
    }
-   
+
    
   //initBoard1();//which computer board to choose
     

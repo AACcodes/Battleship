@@ -15,8 +15,6 @@ public class BattleShip
        //Board2.start();
         b1.startGame();
         
-       
-
    }
     
 

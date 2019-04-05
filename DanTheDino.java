@@ -47,6 +47,30 @@ public class DanTheDino
       
       System.out.println("");
       System.out.println("");
+      
+      
+System.out.println("Welcome to Battleship! :)");
+
+System.out.println();
+
+System.out.println("The computer has five ships:");
+System.out.println("Carrier, with five holes\t");
+System.out.println("Battleship, with four holes\t");
+System.out.println("Cruiser, with three holes\t");
+System.out.println("Submarine, with three holes\t");
+System.out.println("Destroyer, with two holes\t");
+
+
+System.out.println();
+
+System.out.println("Your task is to find the computer's ships and destroy them.\n");
+
+System.out.println("You will accomplish this by shooting coordinates on your coordinate plane radar\n");
+
+System.out.println("The game will not end until you hit all the ships");
+System.out.println("Make sureyou keep track of all the ships that you sink!");
+
+System.out.println("Good luck and have fun Battleshipping!");
 
 
    }
