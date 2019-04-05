@@ -359,25 +359,260 @@ public class BattleshipBoard{
    
    }
     public void initBoard4(){
+     int boardTemp[][] = {
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0}     
+     
+     };
+     
+     int rowCount = 0;
+
+           for(int[]row:boardTemp){
+            int colCount=0;
+            
+               for(int temp:row){
+               
+              
+               //System.out.print(
+             
+
+               boardComp[rowCount][colCount] = temp;
+               colCount++;
+               }
+              
+              rowCount++;
+              }
+     
+     
+
    
    }
     public void initBoard5(){
+     int boardTemp[][] = {
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0}     
+     
+     };
+     
+     int rowCount = 0;
+
+           for(int[]row:boardTemp){
+            int colCount=0;
+            
+               for(int temp:row){
+               
+              
+               //System.out.print(
+             
+
+               boardComp[rowCount][colCount] = temp;
+               colCount++;
+               }
+              
+              rowCount++;
+              }
+     
+     
+
    
    }
     public void initBoard6(){
+     int boardTemp[][] = {
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0}     
+     
+     };
+     
+     int rowCount = 0;
+
+           for(int[]row:boardTemp){
+            int colCount=0;
+            
+               for(int temp:row){
+               
+              
+               //System.out.print(
+             
+
+               boardComp[rowCount][colCount] = temp;
+               colCount++;
+               }
+              
+              rowCount++;
+              }
+     
+     
+
    
    }
     public void initBoard7(){
+     int boardTemp[][] = {
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0}     
+     
+     };
+     
+     int rowCount = 0;
+
+           for(int[]row:boardTemp){
+            int colCount=0;
+            
+               for(int temp:row){
+               
+              
+               //System.out.print(
+             
+
+               boardComp[rowCount][colCount] = temp;
+               colCount++;
+               }
+              
+              rowCount++;
+              }
+     
+     
+
    
    }
     public void initBoard8(){
-   
+    int boardTemp[][] = {
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0}     
+     
+     };
+     
+     int rowCount = 0;
+
+           for(int[]row:boardTemp){
+            int colCount=0;
+            
+               for(int temp:row){
+               
+              
+               //System.out.print(
+             
+
+               boardComp[rowCount][colCount] = temp;
+               colCount++;
+               }
+              
+              rowCount++;
+              }
+     
+     
+
    }
     public void initBoard9(){
-   
+    int boardTemp[][] = {
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0}     
+     
+     };
+     
+     int rowCount = 0;
+
+           for(int[]row:boardTemp){
+            int colCount=0;
+            
+               for(int temp:row){
+               
+              
+               //System.out.print(
+             
+
+               boardComp[rowCount][colCount] = temp;
+               colCount++;
+               }
+              
+              rowCount++;
+              }
+     
+     
+
    }
     public void initBoard10(){
-   
+    int boardTemp[][] = {
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0,0}     
+     
+     };
+     
+     int rowCount = 0;
+
+           for(int[]row:boardTemp){
+            int colCount=0;
+            
+               for(int temp:row){
+               
+              
+               //System.out.print(
+             
+
+               boardComp[rowCount][colCount] = temp;
+               colCount++;
+               }
+              
+              rowCount++;
+              }
+     
+     
+
    }
 
 
